@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script>
+			function show_image(src, width, height, alt) {
+				var img = document.createElement("img");
+				img.src = src;
+				img.width = width;
+				img.height = height;
+				img.alt = alt;
+				//adds it to the body tag
+				document.body.appendChild(img);
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Creating Elements</h1>
+		<p id="demo"></p>
+		
+		<button onclick="show_image('toy-story-alien.jpeg',200,200,'ooohhh');">Display an image!</button>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Canvas Test</title>
+	<script>
+		function f1() {
+			var canvas = document.getElementById("smlRectangle");
+			context = canvas.getContext("2d");
+			context.fillStyle = "rgba(0,0,255,0.5)";
+			context.fillRect (10, 20, 200, 100);
+			}
+	</script>
+	<link href="my-style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body onload = "f1();">
+		<canvas id="smlRectangle" height="100" width="200"></canvas>
+		<p><a href="index.html">Home</a></p>	
+		<p><a href="page2.html">Page 2</a></p>
+		<p><a href="video.html">Video</a></p>
+		<p><a href="text-maniac.html">text-maniac</a></p>		
+	</body>
+</html>

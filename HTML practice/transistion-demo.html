@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<style>
+			div {
+				width: 100px;
+				height: 100px;
+				background: blue;
+				transition: width 5s;
+				animation-name: square-color;
+				animation-duration: 60s;
+				animation-iteration-count: infinite;
+			}
+			
+			div:hover {
+				width: 500px;
+			}
+			
+			@keyframes square-color {
+				from {background: blue;}
+				to {background: red;}
+			}
+		</style>
+	</head>
+	<body>
+		<div></div>
+	</body>
+</html>
